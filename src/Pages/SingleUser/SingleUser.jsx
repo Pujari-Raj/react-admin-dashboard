@@ -9,13 +9,16 @@ import {
   Publish,
   PublishOutlined,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const SingleUser = () => {
   return (
     <div className="user">
       <div className="user-title-container">
         <h1 className="userTitle">Edit User</h1>
-        <button className="userAddBtn">Create</button>
+        <Link to='/newUser'>
+          <button className="userAddBtn">Create</button>
+        </Link>
       </div>
       <div className="user-container">
         <div className="edit-user">
