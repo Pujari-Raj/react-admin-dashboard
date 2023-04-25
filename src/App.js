@@ -1,8 +1,9 @@
 import Navbar from "./components/Navbar/navbar";
 import Sidebar from "./components/Sidebar/sidebar";
-import './App.css';
+import "./App.css";
 import Home from "./Pages/Home/Home";
 import UsersList from "./Pages/UsersList/UsersList";
+import SingleUser from "./Pages/SingleUser/SingleUser";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
           <Sidebar />
           {/* <Home/> */}
           <Routes>
-            <Route path='/' exact element={<Home />}></Route>
-            <Route  path='/users' exact element={<UsersList />}></Route>
+            <Route path="/" exact element={<Home />}></Route>
+            <Route path="/users" exact element={<UsersList />}></Route>
+            <Route path="/user/:userId" exact element={<SingleUser />}></Route>
           </Routes>
         </div>
       </div>
