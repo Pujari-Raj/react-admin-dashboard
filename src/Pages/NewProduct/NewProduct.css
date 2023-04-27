@@ -1,0 +1,56 @@
+.newProduct {
+  flex: 4;
+}
+
+.addProductForm {
+  margin-top: 10px;
+}
+
+.addProductItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input:focus {
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.addProductItem > input {
+  padding: 10px;
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 2px solid gray;
+}
+
+.addProductItem > input[type="file"]{
+  padding: 10px;
+  border: none;
+  width: 250px;
+  height: 30px;
+  /* border: 2px solid gray; */
+}
+
+.addProductItem > select {
+  padding: 10px;
+}
+
+.addProductButton {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

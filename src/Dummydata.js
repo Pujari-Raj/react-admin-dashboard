@@ -56,11 +56,11 @@ export const productData = [
     },
     {
         name: "Feb",
-        "Sales": 3000,
+        "Sales": 12500,
     },
     {
         name: "Mar",
-        "Sales": 5000,
+        "Sales": 8000,
     },
 ];
 

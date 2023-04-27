@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NewUser from "./Pages/NewUser/NewUser";
 import ProductList from "./Pages/ProductsList/ProductList";
 import Product from "./Pages/Product/Product";
+import NewProduct from "./Pages/NewProduct/NewProduct";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
 
             <Route path="/products" exact element={<ProductList/>}></Route>
             <Route path="/product/:productId" exact element={<Product/>}></Route>
-            <Route path="/newproduct" exact element={<NewUser />}></Route>
+            <Route path="/newproduct" exact element={<NewProduct/>}></Route>
             
           </Routes>
         </div>
