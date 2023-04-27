@@ -7,6 +7,7 @@ import SingleUser from "./Pages/SingleUser/SingleUser";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NewUser from "./Pages/NewUser/NewUser";
 import ProductList from "./Pages/ProductsList/ProductList";
+import Product from "./Pages/Product/Product";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <Route path="/newUser" exact element={<NewUser />}></Route>
 
             <Route path="/products" exact element={<ProductList/>}></Route>
-            <Route path="/product/:productId" exact element={<SingleUser />}></Route>
+            <Route path="/product/:productId" exact element={<Product/>}></Route>
             <Route path="/newproduct" exact element={<NewUser />}></Route>
             
           </Routes>
