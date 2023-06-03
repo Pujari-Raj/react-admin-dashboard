@@ -28,8 +28,8 @@ const SideBar = () => {
 
   return (
 
-    <div  className="sidebar">
-       {/* // Toggle Hamburger code  */}
+    <div className="sidebar">
+      {/* // Toggle Hamburger code  */}
       {/* <div className="sidebar-logo-menu">
         <div className="sidebar-left">
           <span  className='logo'>salesadmin</span>
@@ -39,7 +39,7 @@ const SideBar = () => {
         </div>
       </div> */}
 
-      <div  className="sidebarWrapper">
+      <div className="sidebarWrapper">
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
@@ -49,10 +49,12 @@ const SideBar = () => {
                 Home
               </li>
             </Link>
-            <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
+            <Link to="/analytics" className="link">
+              <li className="sidebarListItem">
+                <Timeline className="sidebarIcon" />
+                Analytics
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
               Sales

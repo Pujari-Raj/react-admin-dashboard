@@ -9,6 +9,7 @@ import ProductList from "./Pages/ProductsList/ProductList";
 import Product from "./Pages/Product/Product";
 import NewProduct from "./Pages/NewProduct/NewProduct";
 import SideBar from "./components/Sidebar/SideBar";
+import Analytics from "./Pages/Analytics/Analytics";
 
 // import {useStateContext} from './contexts/ContextProvider';
 
@@ -23,6 +24,7 @@ function App() {
           <SideBar />
           <Routes>
             <Route path="/" exact element={<Home />}></Route>
+            <Route path="/analytics" exact element={<Analytics/>}></Route>
             <Route path="/users" exact element={<UsersList />}></Route>
             <Route path="/user/:userId" exact element={<SingleUser />}></Route>
             <Route path="/newUser" exact element={<NewUser />}></Route>

@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 //
 import FeaturedInfo from "../../components/FeaturedInfo/FeaturedInfo";
-import Navbar from "../../components/Navbar/Navbar";
 import Chart from "../../components/Charts/Chart";
 import WidgetsMem from "../../components/Widgets-Member/WidgetsMem";
 import WidgetsTransaction from "../../components/Widgets-Transaction/WidgetsTransaction";
