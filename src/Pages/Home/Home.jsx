@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className='home'>
       <FeaturedInfo />
-      <Chart data={userData} title="Sales Analytics" grid dataKey="Active User"  />
+      <Chart data={userData} title="Sales Analytics" grid dataKey="Active User" />
       <div className="homeWidgets">
         <WidgetsMem/>
         <WidgetsTransaction/>

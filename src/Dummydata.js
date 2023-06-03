@@ -28,7 +28,7 @@ export const userData = [
         "Active User": 4000,
     },
     {
-        name: "Agu",
+        name: "Aug",
         "Active User": 3000,
     },
     {
@@ -52,16 +52,49 @@ export const userData = [
 export const productData = [
     {
         name: "Jan",
-        "Sales": 4000,
+        "Views": 7000,
     },
     {
         name: "Feb",
-        "Sales": 12500,
+        "Views": 12500,
     },
     {
         name: "Mar",
-        "Sales": 8000,
+        "Views": 8000,
     },
+    {
+        name: "May",
+        "Views": 7000,
+    },
+    {
+        name: "Jun",
+        "Views": 4000,
+    },
+    {
+        name: "Jul",
+        "Views": 7000,
+    },
+    {
+        name: "Aug",
+        "Views": 9000,
+    },
+    {
+        name: "Sep",
+        "Views": 1000,
+    },
+    {
+        name: "Oct",
+        "Views": 9000,
+    },
+    {
+        name: "Nov",
+        "Views": 8000,
+    },
+    {
+        name: "Dec",
+        "Views": 9000,
+    },
+
 ];
 
 export const userRows = [
