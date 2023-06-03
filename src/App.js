@@ -1,5 +1,4 @@
-import Navbar from "./components/Navbar/navbar";
-import Sidebar from "./components/Sidebar/sidebar";
+import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import Home from "./Pages/Home/Home";
 import UsersList from "./Pages/UsersList/UsersList";
@@ -9,15 +8,19 @@ import NewUser from "./Pages/NewUser/NewUser";
 import ProductList from "./Pages/ProductsList/ProductList";
 import Product from "./Pages/Product/Product";
 import NewProduct from "./Pages/NewProduct/NewProduct";
+import SideBar from "./components/Sidebar/SideBar";
+
+// import {useStateContext} from './contexts/ContextProvider';
 
 function App() {
+  // const {activeMenu} = useStateContext();
+
   return (
     <BrowserRouter>
       <div className="App">
         <Navbar />
         <div className="container">
-          <Sidebar />
-          {/* <Home/> */}
+          <SideBar />
           <Routes>
             <Route path="/" exact element={<Home />}></Route>
             <Route path="/users" exact element={<UsersList />}></Route>

@@ -1,39 +1,60 @@
 import React from "react";
 import "./sidebar.css";
-import { LineStyle, 
-    Timeline, 
-    TrendingUp,
-    PermIdentity,
-    Storefront,
-    AttachMoney,
-    BarChart,
-    MailOutline,
-    DynamicFeed,
-    ChatBubbleOutline,
-    WorkOutline,
-    Report } from "@material-ui/icons";
+import {
+  LineStyle,
+  Timeline,
+  TrendingUp,
+  PermIdentity,
+  Storefront,
+  AttachMoney,
+  BarChart,
+  MailOutline,
+  DynamicFeed,
+  ChatBubbleOutline,
+  WorkOutline,
+  Report,
+  Menu,
+} from "@material-ui/icons";
 
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+// import { useStateContext } from "../../context/ContextProvider";
+import { useState } from "react";
 
-const sidebar = () => {
+const SideBar = () => {
+
+  // Toggle Hamburger code 
+  // const [isOpen, setIsOpen] = useState(true);
+  // const toggle = () => setIsOpen(!isOpen);
+
   return (
-    <div className="sidebar">
-      <div className="sidebarWrapper">
+
+    <div  className="sidebar">
+       {/* // Toggle Hamburger code  */}
+      {/* <div className="sidebar-logo-menu">
+        <div className="sidebar-left">
+          <span  className='logo'>salesadmin</span>
+           <Link>
+            <Menu onClick={toggle} className="sidebarIcon" />
+          </Link> }
+        </div>
+      </div> */}
+
+      <div  className="sidebarWrapper">
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-          <Link to="/" className="link">
+            <Link to="/" className="link">
+              <li className="sidebarListItem">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </li>
+            </Link>
             <li className="sidebarListItem">
-              <LineStyle  className="sidebarIcon"/>
-              Home
-            </li>
-          </Link>  
-            <li className="sidebarListItem">
-              <Timeline  className="sidebarIcon"/>
+              <Timeline className="sidebarIcon" />
               Analytics
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon"/>
+              <TrendingUp className="sidebarIcon" />
               Sales
             </li>
           </ul>
@@ -98,8 +119,9 @@ const sidebar = () => {
           </ul>
         </div>
       </div>
+
     </div>
   );
 };
 
-export default sidebar;
+export default SideBar;
