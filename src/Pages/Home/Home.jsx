@@ -12,7 +12,7 @@ import { userData } from "../../Dummydata";
 const Home = () => {
   return (
     <div className='home'>
-        <FeaturedInfo />
+      <FeaturedInfo />
       <Chart data={userData} title="Sales Analytics" grid dataKey="Active User"  />
       <div className="homeWidgets">
         <WidgetsMem/>
