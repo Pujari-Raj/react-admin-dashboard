@@ -282,3 +282,90 @@ export const productRows = [
         price: "$120.00",
     },
 ];
+
+export const salesdata = [
+    {
+        "Month": "Jan",
+        "Sales": [
+            100,
+            300
+        ]
+    },
+    {
+        "Month": "Feb",
+        "Sales": [
+            200,
+            400
+        ]
+    },
+    {
+        "Month": "Mar",
+        "Sales": [
+            300,
+            500
+        ]
+    },
+    {
+        "Month": "April",
+        "Sales": [
+            400,
+            700
+        ]
+    },
+    {
+        "Month": "May",
+        "Sales": [
+            390,
+            650
+        ]
+    },
+    {
+        "Month": "Jun",
+        "Sales": [
+            500,
+            800
+        ]
+    },
+    {
+        "Month": "July",
+        "Sales": [
+            600,
+            400
+        ]
+    },
+    {
+        "Month": "Aug",
+        "Sales": [
+            400,
+            800
+        ]
+    },
+    {
+        "Month": "Sept",
+        "Sales": [
+            400,
+            800
+        ]
+    },
+    {
+        "Month": "Oct",
+        "Sales": [
+            900,
+            500
+        ]
+    },
+    {
+        "Month": "Nov",
+        "Sales": [
+            700,
+            300
+        ]
+    },
+    {
+        "Month": "Dec",
+        "Sales": [
+            400,
+            800
+        ]
+    },
+]
