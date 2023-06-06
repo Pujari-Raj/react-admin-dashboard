@@ -6,14 +6,14 @@ import Chart from "../../components/Charts/Chart";
 import WidgetsMem from "../../components/Widgets-Member/WidgetsMem";
 import WidgetsTransaction from "../../components/Widgets-Transaction/WidgetsTransaction";
 import { userData } from "../../Dummydata";
-import Radialbarchart from '../../components/Radialbarchart/Radialbarchart';
+// import Radialbarchart from '../../components/Radialbarchart/Radialbarchart';
 
 const Home = () => {
   return (
     <div className='home'>
       <FeaturedInfo />
       <Chart data={userData} title="Sales Analytics" grid dataKey="Active User" />
-      <Radialbarchart></Radialbarchart>
+      {/* <Radialbarchart></Radialbarchart> */}
       <div className="homeWidgets">
         <WidgetsMem/>
         <WidgetsTransaction/>
