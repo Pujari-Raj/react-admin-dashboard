@@ -13,7 +13,7 @@ const Sales = () => {
       <Barchart title="Sales Report" />
       <Chart data={earningData} title="Earning" grid dataKey="Earning" />
       <div className="earning-product">
-        <Radialbarchart title='Earning' ></Radialbarchart>
+        <Radialbarchart title='Revenue' ></Radialbarchart>
         <Widgetsproducts></Widgetsproducts>
       </div>
     </div>

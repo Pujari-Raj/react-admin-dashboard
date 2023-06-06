@@ -5,7 +5,7 @@ import { DeleteOutline } from "@material-ui/icons";
 import { userRows } from "../../Dummydata";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Navbar from "../../components/Navbar/Navbar";
+
 const UsersList = () => {
 
   // state for manipulating the user data
