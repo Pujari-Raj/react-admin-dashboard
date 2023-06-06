@@ -49,6 +49,58 @@ export const userData = [
     },
 ];
 
+export const earningData = [
+    {
+        name: "Jan",
+        "Earning": 40000,
+    },
+    {
+        name: "Feb",
+        "Earning": 30000,
+    },
+    {
+        name: "Mar",
+        "Earning": 50000,
+    },
+    {
+        name: "Apr",
+        "Earning": 40000,
+    },
+    {
+        name: "May",
+        "Earning": 30000,
+    },
+    {
+        name: "Jun",
+        "Earning": 20000,
+    },
+    {
+        name: "Jul",
+        "Earning": 40000,
+    },
+    {
+        name: "Aug",
+        "Earning": 30000,
+    },
+    {
+        name: "Sep",
+        "Earning": 40000,
+    },
+    {
+        name: "Oct",
+        "Earning": 10000,
+    },
+    {
+        name: "Nov",
+        "Earning": 40000,
+    },
+    {
+        name: "Dec",
+        "Earning": 30000,
+    },
+];
+
+
 export const productData = [
     {
         name: "Jan",

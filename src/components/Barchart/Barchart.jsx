@@ -6,7 +6,8 @@ import {
     YAxis,
     Tooltip,
     Bar,
-    ResponsiveContainer
+    ResponsiveContainer,
+    Legend
 } from "recharts";
 import { salesdata } from '../../Dummydata';
 
@@ -20,6 +21,7 @@ const Barchart = ({ title }) => {
                     <YAxis />
                     <Tooltip />
                     <Bar dataKey="Sales" fill="#8884d8" />
+                    <Legend/>
                 </BarChart>
             </ResponsiveContainer>
         </div>
