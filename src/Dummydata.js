@@ -100,7 +100,6 @@ export const earningData = [
     },
 ];
 
-
 export const productData = [
     {
         name: "Jan",
@@ -421,3 +420,37 @@ export const salesdata = [
         ]
     },
 ]
+
+export const data = [
+    {
+      "name": "Oneplus-7",
+      "units": 3000,
+      "fill": "#8884d8"
+    },
+    {
+      "name": "Oneplus-7t",
+      "units": 5000,
+      "fill": "#83a6ed"
+    },
+    {
+      "name": "Oneplus-8",
+      "units": 2000,
+      "fill": "#8dd1e1"
+    },
+    {
+      "name": "Oneplus-9",
+      "units": 800,
+      "fill": "#82ca9d"
+    },
+    {
+      "name": "Oneplus-11",
+      "units": 1200,
+      "fill": "#a4de6c"
+    },
+    {
+      "name": "Accesserios",
+      "units": 1100,
+      "fill": "#d0ed57"
+    },
+  ]
+  
