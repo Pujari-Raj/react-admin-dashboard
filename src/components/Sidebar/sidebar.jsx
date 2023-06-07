@@ -78,10 +78,12 @@ const SideBar = () => {
                 Products
               </li>
             </Link>
-            <li className="sidebarListItem">
-              <AttachMoney className="sidebarIcon" />
-              Transactions
-            </li>
+            <Link to="/transactions" className="link">
+              <li className="sidebarListItem">
+                <AttachMoney className="sidebarIcon" />
+                Transactions
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <BarChart className="sidebarIcon" />
               Reports
@@ -112,10 +114,12 @@ const SideBar = () => {
               <WorkOutline className="sidebarIcon" />
               Manage
             </li>
-            <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
+            <Link to="/analytics" className="link">
+              <li className="sidebarListItem">
+                <Timeline className="sidebarIcon" />
+                Analytics
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <Report className="sidebarIcon" />
               Reports

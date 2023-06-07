@@ -16,7 +16,7 @@ const Product = () => {
       </div>
       <div className="productTop">
           <div className="productTopLeft">
-              <Chart data={productData} dataKey="Sales" title="Sales Performance"/>
+              {/* <Chart data={productData} dataKey="Sales" title="Sales Performance"/> */}
           </div>
           <div className="productTopRight">
               <div className="productInfoTop">

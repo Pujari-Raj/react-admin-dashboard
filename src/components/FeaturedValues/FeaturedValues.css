@@ -15,7 +15,19 @@
 }
 
 .featuredTitle {
-  font-size: 20px;
+  font-size: 16px;
+  color: #8d8484;
+}
+
+.featuredicon {
+    font-size: 25px;
+}
+
+.featured-stats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 !important;
 }
 
 .featuredMoneyContainer {
@@ -25,14 +37,15 @@
 }
 
 .featuredMoney {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 600;
 }
 
 .featuredMoneyRate {
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
+    background-color: #c7cacf;
+    padding:3px 9px;
+    border-radius: 0 20px;
+    margin-left: 0px;
 }
 
 .featuredIcon {

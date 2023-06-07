@@ -253,54 +253,54 @@ export const productRows = [
     },
     {
         id: 2,
-        name: "Apple Airpods",
+        name: "Apple iPhone-13",
         img:
-            "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.pexels.com/photos/14666017/pexels-photo-14666017.jpeg?auto=compress&cs=tinysrgb&w=600",
         stock: 123,
         status: "active",
         price: "$120.00",
     },
     {
         id: 3,
-        name: "Apple Airpods",
+        name: "Apple iphone-12",
         img:
-            "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.pexels.com/photos/14666017/pexels-photo-14666017.jpeg?auto=compress&cs=tinysrgb&w=600",
         stock: 123,
         status: "active",
         price: "$120.00",
     },
     {
         id: 4,
-        name: "Apple Airpods",
+        name: "Oneplus 7t",
         img:
-            "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.pexels.com/photos/9403824/pexels-photo-9403824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         stock: 123,
         status: "active",
         price: "$120.00",
     },
     {
         id: 5,
-        name: "Apple Airpods",
+        name: "Oneplus 8",
         img:
-            "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.unsplash.com/photo-1649515530664-7a3150983c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
         stock: 123,
         status: "active",
         price: "$120.00",
     },
     {
         id: 6,
-        name: "Apple Airpods",
+        name: "Oneplus 8",
         img:
-            "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.unsplash.com/photo-1649515530664-7a3150983c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
         stock: 123,
         status: "active",
         price: "$120.00",
     },
     {
         id: 7,
-        name: "Apple Airpods",
+        name: "Oneplus earbuds",
         img:
-            "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.unsplash.com/photo-1627989580309-bfaf3e58af6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b25lcGx1cyUyMGVhcmJ1ZHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
         stock: 123,
         status: "active",
         price: "$120.00",
@@ -316,18 +316,18 @@ export const productRows = [
     },
     {
         id: 9,
-        name: "Apple Airpods",
+        name: "Nothing-1",
         img:
-            "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.unsplash.com/photo-1661267990546-74312bcb1d15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=439&q=80",
         stock: 123,
         status: "active",
         price: "$120.00",
     },
     {
         id: 10,
-        name: "Apple Airpods",
+        name: "Motorola",
         img:
-            "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://images.unsplash.com/photo-1649932542678-c5f6a78ae51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
         stock: 123,
         status: "active",
         price: "$120.00",
