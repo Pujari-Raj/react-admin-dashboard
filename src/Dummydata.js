@@ -423,34 +423,131 @@ export const salesdata = [
 
 export const data = [
     {
-      "name": "Oneplus-7",
-      "units": 3000,
-      "fill": "#8884d8"
+        "name": "Oneplus-7",
+        "units": 3000,
+        "fill": "#8884d8"
     },
     {
-      "name": "Oneplus-7t",
-      "units": 5000,
-      "fill": "#83a6ed"
+        "name": "Oneplus-7t",
+        "units": 5000,
+        "fill": "#83a6ed"
     },
     {
-      "name": "Oneplus-8",
-      "units": 2000,
-      "fill": "#8dd1e1"
+        "name": "Oneplus-8",
+        "units": 2000,
+        "fill": "#8dd1e1"
     },
     {
-      "name": "Oneplus-9",
-      "units": 800,
-      "fill": "#82ca9d"
+        "name": "Oneplus-9",
+        "units": 800,
+        "fill": "#82ca9d"
     },
     {
-      "name": "Oneplus-11",
-      "units": 1200,
-      "fill": "#a4de6c"
+        "name": "Oneplus-11",
+        "units": 1200,
+        "fill": "#a4de6c"
     },
     {
-      "name": "Accesserios",
-      "units": 1100,
-      "fill": "#d0ed57"
+        "name": "Accesserios",
+        "units": 1100,
+        "fill": "#d0ed57"
     },
-  ]
-  
+]
+
+export const incomedata = [
+    {
+        "name": "Jan",
+        "revenue": 4000,
+        "loss": 2400,
+        "amt": 12400
+    },
+    {
+        "name": "Feb",
+        "revenue": 3000,
+        "loss": 1398,
+        "amt": 9000
+    },
+    {
+        "name": "Mar",
+        "revenue": 2000,
+        "loss": 9800,
+        "amt": 72900
+    },
+    {
+        "name": "April",
+        "revenue": 2780,
+        "loss": 3908,
+        "amt": 2000
+    },
+    {
+        "name": "May",
+        "revenue": 1890,
+        "loss": 4800,
+        "amt": 2181
+    },
+    // {
+    //     "name": "Jun",
+    //     "revenue": 2390,
+    //     "loss": 3800,
+    //     "amt": 2500
+    // },
+    // {
+    //     "name": "July",
+    //     "revenue": 3490,
+    //     "loss": 4300,
+    //     "amt": 2100
+    // }
+]
+
+export const expensdata1 = [
+    {
+        "name": "Mantainence",
+        "value": 400
+    },
+    {
+        "name": "Food",
+        "value": 300
+    },
+    {
+        "name": "Investment",
+        "value": 300
+    },
+    {
+        "name": "Infrastructure",
+        "value": 200
+    },
+    {
+        "name": "Daily Allowance",
+        "value": 278
+    },
+    {
+        "name": "Health",
+        "value": 189
+    }
+];
+export const expensdata2 = [
+    {
+        "name": "Mantainence",
+        "value": 2400
+    },
+    {
+        "name": "Food",
+        "value": 4567
+    },
+    {
+        "name": "Investment",
+        "value": 1398
+    },
+    {
+        "name": "Daily Allowance",
+        "value": 9800
+    },
+    {
+        "name": "Health",
+        "value": 3908
+    },
+    {
+        "name": "",
+        "value": 4800
+    }
+];

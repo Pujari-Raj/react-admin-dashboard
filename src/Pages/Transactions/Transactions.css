@@ -1,3 +1,9 @@
 .Transactions {
     flex: 4;
 }
+
+.income-expense {
+    margin-top: 20px;
+    display: flex;
+    row-gap: 0px;
+}
