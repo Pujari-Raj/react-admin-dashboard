@@ -347,8 +347,6 @@ const WidgetsAnalytics = () => {
                     </div>
                 </div>
             </div>
-
-         
         </div>
     )
 }

@@ -485,18 +485,6 @@ export const incomedata = [
         "loss": 4800,
         "amt": 2181
     },
-    // {
-    //     "name": "Jun",
-    //     "revenue": 2390,
-    //     "loss": 3800,
-    //     "amt": 2500
-    // },
-    // {
-    //     "name": "July",
-    //     "revenue": 3490,
-    //     "loss": 4300,
-    //     "amt": 2100
-    // }
 ]
 
 export const expensdata1 = [

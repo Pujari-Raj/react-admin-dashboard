@@ -3,6 +3,7 @@ import './Transactions.css';
 import FeaturedValues from '../../components/FeaturedValues/FeaturedValues';
 import Areachart from '../../components/Areachart/Areachart';
 import Piechart from '../../components/Piechart/Piechart';
+import ProductsTransaction from '../../components/ProductsTransaction/ProductsTransaction';
 
 const Transactions = () => {
   return (
@@ -12,6 +13,7 @@ const Transactions = () => {
         <Areachart title="FY Income" />
         <Piechart title="Expense Data" />
       </div>
+      <ProductsTransaction/>
     </div>
   )
 }
