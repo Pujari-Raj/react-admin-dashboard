@@ -1,6 +1,6 @@
 import React from 'react';
 import "./FeaturedValues.css";
-import { ArrowDownward, ArrowUpward } from '@material-ui/icons';
+import { ArrowDownward } from '@material-ui/icons';
 import { FaHandHoldingUsd,FaPiggyBank,FaFunnelDollar } from "react-icons/fa";
 
 const FeaturedValues = () => {

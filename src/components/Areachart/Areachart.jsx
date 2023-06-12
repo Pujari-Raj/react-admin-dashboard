@@ -7,7 +7,6 @@ import {
     Tooltip,
     CartesianGrid,
     Area,
-    ResponsiveContainer,
 } from "recharts";
 import { incomedata } from '../../Dummydata';
 
