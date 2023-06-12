@@ -3,9 +3,7 @@ import './Piechart.css';
 import {
     Pie,
     PieChart,
-    Area,
     Tooltip,
-    ResponsiveContainer,
 } from "recharts";
 import { expensdata1, expensdata2 } from '../../Dummydata';
 

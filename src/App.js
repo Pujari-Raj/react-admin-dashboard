@@ -13,8 +13,6 @@ import Analytics from "./Pages/Analytics/Analytics";
 import Sales from "./Pages/Sales/Sales";
 import Transactions from "./Pages/Transactions/Transactions";
 
-// import {useStateContext} from './contexts/ContextProvider';
-
 function App() {
   // const {activeMenu} = useStateContext();
 

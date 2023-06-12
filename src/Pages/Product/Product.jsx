@@ -1,7 +1,5 @@
 import React from 'react';
 import './Product.css';
-import Chart from "../../components/Charts/Chart"
-import {productData} from "../../Dummydata";
 import { Publish } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 

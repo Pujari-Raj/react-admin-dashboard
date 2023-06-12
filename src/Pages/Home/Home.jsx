@@ -6,7 +6,6 @@ import Chart from "../../components/Charts/Chart";
 import WidgetsMem from "../../components/Widgets-Member/WidgetsMem";
 import WidgetsTransaction from "../../components/Widgets-Transaction/WidgetsTransaction";
 import { userData } from "../../Dummydata";
-// import Radialbarchart from '../../components/Radialbarchart/Radialbarchart';
 
 const Home = () => {
   return (

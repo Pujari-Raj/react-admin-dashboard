@@ -13,12 +13,9 @@ import {
   ChatBubbleOutline,
   WorkOutline,
   Report,
-  Menu,
 } from "@material-ui/icons";
 
 import { Link } from 'react-router-dom';
-// import { useStateContext } from "../../context/ContextProvider";
-import { useState } from "react";
 
 const SideBar = () => {
 

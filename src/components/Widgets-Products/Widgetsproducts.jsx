@@ -4,9 +4,9 @@ import { SiOneplus,SiApple } from "react-icons/si";
 
 const Widgetsproducts = () => {
 
-    const Button = ({ type }) => {
-        return <button className={"widgetLgButton " + type}>{type}</button>;
-    };
+    // const Button = ({ type }) => {
+    //     return <button className={"widgetLgButton " + type}>{type}</button>;
+    // };
 
     return (
         <div className="widgetLg">

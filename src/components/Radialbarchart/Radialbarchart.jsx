@@ -6,7 +6,6 @@ import {
     Tooltip,
     ResponsiveContainer,
     Legend,
-    YAxis,
 } from "recharts";
 import { data } from '../../Dummydata'
 

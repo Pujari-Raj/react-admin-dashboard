@@ -1,8 +1,7 @@
 import React from 'react';
 import './navbar.css';
-import { NotificationsNone, Language, Settings, Menu } from '@material-ui/icons'
+import { NotificationsNone, Language, Settings } from '@material-ui/icons'
 import { Link } from 'react-router-dom';
-import { useState } from "react";
 
 const Navbar = () => {
     

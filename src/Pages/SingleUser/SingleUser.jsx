@@ -6,7 +6,6 @@ import {
   MailOutline,
   PermIdentity,
   PhoneAndroid,
-  Publish,
   PublishOutlined,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
