@@ -5,7 +5,6 @@ TechStack
 - CSS
 - ReactJs
 - Material UI
-- ReactCharts
 
 ## Sales-Admin Dashboard
 * A sales admin dashboard user interface is a tool that provides a visual representation of sales data and provide insights to help the sales administrators manage and track  the sales activities effectively.
