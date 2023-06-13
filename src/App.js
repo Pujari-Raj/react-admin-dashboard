@@ -8,7 +8,7 @@ import NewUser from "./Pages/NewUser/NewUser";
 import ProductList from "./Pages/ProductsList/ProductList";
 import Product from "./Pages/Product/Product";
 import NewProduct from "./Pages/NewProduct/NewProduct";
-import SideBar from "./components/Sidebar/sideBar";
+import SideBar from "./components/Sidebar/sidebar";
 import Analytics from "./Pages/Analytics/Analytics";
 import Sales from "./Pages/Sales/Sales";
 import Transactions from "./Pages/Transactions/Transactions";
