@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/navbar";
 import "./App.css";
 import Home from "./Pages/Home/Home";
 import UsersList from "./Pages/UsersList/UsersList";
