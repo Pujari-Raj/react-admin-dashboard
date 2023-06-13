@@ -1,5 +1,5 @@
 import "./App.css";
-import navbar from "../src/components/Navbar/navbar";
+import Navbar from "./components/Navbar/navbar";
 import Home from "./Pages/Home/Home";
 import UsersList from "./Pages/UsersList/UsersList";
 import SingleUser from "./Pages/SingleUser/SingleUser";
@@ -19,7 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <navbar />
+        <Navbar/>
         <div className="container">
           <SideBar />
           <Routes>
